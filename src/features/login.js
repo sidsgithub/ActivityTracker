@@ -78,7 +78,7 @@ function Login(props) {
         </Button>
                 </Form.Item>
             </Form>
-            {login && <Redirect to="/activity" />}
+            {login && <Redirect to="/report" />}
         </React.Fragment>
     );
 }
